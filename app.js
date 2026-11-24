@@ -1,17 +1,31 @@
 const DEFAULT_PRODUCTS = [
-{id:1,name:"حقيبة يومية كلاسيك",desc:"تصميم عملي بخامة أنيقة",price:890,old:1050,stock:12,category:"bags",icon:"👜",image:"https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=700&q=85",badge:"الأكثر مبيعًا"},
-{id:2,name:"حقيبة ميني",desc:"حجم صغير لمشاويرك",price:620,stock:8,category:"bags",icon:"👝",image:"https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=700&q=85",badge:"جديد"},
-{id:3,name:"ساعة مينيمال",desc:"لمسة بسيطة لإطلالتك",price:1150,stock:6,category:"accessories",icon:"⌚",image:"https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=85"},
-{id:4,name:"نظارة شمس",desc:"ستايل عصري وخفيف",price:540,old:650,stock:15,category:"accessories",icon:"🕶️",image:"https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=700&q=85",badge:"عرض"},
-{id:5,name:"محفظة جلد",desc:"تفاصيل مرتبة ومساحة مناسبة",price:430,stock:10,category:"accessories",icon:"👛",image:"https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=700&q=85"},
-{id:6,name:"كوب سيراميك",desc:"رفيق قهوتك المفضل",price:260,stock:20,category:"home",icon:"☕",image:"https://images.unsplash.com/photo-1514228742587-6b1558f3f93?auto=format&fit=crop&w=700&q=85"},
-{id:7,name:"فازة ديكور",desc:"تفصيلة هادئة لمنزلك",price:390,stock:7,category:"home",icon:"🏺",image:"https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=700&q=85"},
-{id:8,name:"منظم مكتب",desc:"رتّب مساحتك بأناقة",price:310,stock:18,category:"home",icon:"✏️",image:"https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=700&q=85"}
+{id:1,name:"حقيبة يومية كلاسيك",desc:"تصميم عملي بخامة أنيقة",price:890,old:1050,stock:12,category:"bags",icon:"👜",image:"https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=900&q=90",badge:"الأكثر مبيعًا"},
+{id:2,name:"حقيبة ميني",desc:"حجم صغير لمشاويرك",price:620,stock:8,category:"bags",icon:"👝",image:"https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?auto=format&fit=crop&w=900&q=90",badge:"جديد"},
+{id:3,name:"ساعة مينيمال",desc:"لمسة بسيطة لإطلالتك",price:1150,stock:6,category:"accessories",icon:"⌚",image:"https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=900&q=90"},
+{id:4,name:"نظارة شمس",desc:"ستايل عصري وخفيف",price:540,old:650,stock:15,category:"accessories",icon:"🕶️",image:"https://images.unsplash.com/photo-1587310311582-aa7610e90826?auto=format&fit=crop&w=900&q=90",badge:"عرض"},
+{id:5,name:"محفظة جلد",desc:"تفاصيل مرتبة ومساحة مناسبة",price:430,stock:10,category:"accessories",icon:"👛",image:"https://images.unsplash.com/photo-1622560480654-d96214fdc887?auto=format&fit=crop&w=900&q=90"},
+{id:6,name:"كوب سيراميك",desc:"رفيق قهوتك المفضل",price:260,stock:20,category:"home",icon:"☕",image:"https://images.unsplash.com/photo-1497515114629-f71d768fd07c?auto=format&fit=crop&w=900&q=90"},
+{id:7,name:"فازة ديكور",desc:"تفصيلة هادئة لمنزلك",price:390,stock:7,category:"home",icon:"🏺",image:"https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?auto=format&fit=crop&w=900&q=90"},
+{id:8,name:"منظم مكتب",desc:"رتّب مساحتك بأناقة",price:310,stock:18,category:"home",icon:"✏️",image:"https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=90"},
+{id:9,name:"حقيبة كتف بيج",desc:"أناقة هادئة تناسب كل يوم",price:780,stock:10,category:"bags",icon:"👜",image:"https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&w=900&q=90",badge:"اختيارنا"},
+{id:10,name:"حقيبة ظهر عملية",desc:"مساحة واسعة بتصميم عصري",price:950,stock:9,category:"bags",icon:"🎒",image:"https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=90"},
+{id:11,name:"حلق ذهبي ناعم",desc:"تفصيلة رقيقة لإطلالة مميزة",price:320,stock:14,category:"accessories",icon:"✨",image:"https://images.unsplash.com/photo-1637632668522-ac901758a6bb?auto=format&fit=crop&w=900&q=90",badge:"جديد"},
+{id:12,name:"سلسلة يومية",desc:"تصميم بسيط يليق بكل إطلالة",price:410,stock:11,category:"accessories",icon:"📿",image:"https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=900&q=90"},
+{id:13,name:"حامل شموع أنيق",desc:"أجواء دافئة ولمسة راقية للبيت",price:280,stock:13,category:"home",icon:"🕯️",image:"https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=90"},
+{id:14,name:"صينية تقديم",desc:"تقديم أنيق لضيافتك اليومية",price:450,stock:8,category:"home",icon:"🍽️",image:"https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=900&q=90"},
+{id:15,name:"حافظة بطاقات",desc:"حجم صغير وتنظيم عملي",price:290,stock:16,category:"accessories",icon:"💳",image:"https://images.unsplash.com/photo-1512412046876-f386342eddb3?auto=format&fit=crop&w=900&q=90"},
+{id:16,name:"نظارة بإطار كلاسيك",desc:"إطار أنيق بلمسة عصرية",price:590,stock:7,category:"accessories",icon:"🕶️",image:"https://images.unsplash.com/photo-1674660990017-ee34b9138b98?auto=format&fit=crop&w=900&q=90",badge:"الأكثر طلبًا"}
 ];
 const $ = s => document.querySelector(s);
 const read=(key,fallback)=>{try{const value=JSON.parse(localStorage.getItem(key));return value??fallback}catch{return fallback}};
 let products=read("fa_store_products",DEFAULT_PRODUCTS);
 if(!Array.isArray(products)||!products.length){products=DEFAULT_PRODUCTS;localStorage.setItem("fa_store_products",JSON.stringify(products));}
+// Upgrade existing demo catalogs once: refresh the original product photos and add the new items.
+if(!localStorage.getItem("fa_store_catalog_v2")){
+  const savedById=new Map(products.map(p=>[p.id,p]));
+  products=DEFAULT_PRODUCTS.map(p=>savedById.has(p.id)?{...savedById.get(p.id),image:p.image}:p).concat(products.filter(p=>!DEFAULT_PRODUCTS.some(d=>d.id===p.id)));
+  save("fa_store_products",products);localStorage.setItem("fa_store_catalog_v2","1");
+}
 let cart=read("fa_store_cart",[]);if(!Array.isArray(cart))cart=[];
 let activeCategory="all",searchTerm="",sortMode="featured";
 const money=value=>new Intl.NumberFormat("ar-EG").format(value)+" ج.م";
