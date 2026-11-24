@@ -12,7 +12,7 @@ const DEFAULT_PRODUCTS = [
 {id:11,name:"حلق ذهبي ناعم",desc:"تفصيلة رقيقة لإطلالة مميزة",price:320,stock:14,category:"accessories",icon:"✨",image:"https://images.unsplash.com/photo-1637632668522-ac901758a6bb?auto=format&fit=crop&w=900&q=90",badge:"جديد"},
 {id:12,name:"سلسلة يومية",desc:"تصميم بسيط يليق بكل إطلالة",price:410,stock:11,category:"accessories",icon:"📿",image:"https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=900&q=90"},
 {id:13,name:"حامل شموع أنيق",desc:"أجواء دافئة ولمسة راقية للبيت",price:280,stock:13,category:"home",icon:"🕯️",image:"https://images.unsplash.com/photo-1603006905003-be475563bc59?auto=format&fit=crop&w=900&q=90"},
-{id:14,name:"صينية تقديم",desc:"تقديم أنيق لضيافتك اليومية",price:450,stock:8,category:"home",icon:"🍽️",image:"https://images.unsplash.com/photo-1603199506016-b9a594b593c0?auto=format&fit=crop&w=900&q=90"},
+{id:14,name:"صينية تقديم",desc:"تقديم أنيق لضيافتك اليومية",price:450,stock:8,category:"home",icon:"🍽️",image:"https://images.unsplash.com/photo-1695606453151-e58a72d04d28?auto=format&fit=crop&w=900&q=90"},
 {id:15,name:"حافظة بطاقات",desc:"حجم صغير وتنظيم عملي",price:290,stock:16,category:"accessories",icon:"💳",image:"https://images.unsplash.com/photo-1512412046876-f386342eddb3?auto=format&fit=crop&w=900&q=90"},
 {id:16,name:"نظارة بإطار كلاسيك",desc:"إطار أنيق بلمسة عصرية",price:590,stock:7,category:"accessories",icon:"🕶️",image:"https://images.unsplash.com/photo-1674660990017-ee34b9138b98?auto=format&fit=crop&w=900&q=90",badge:"الأكثر طلبًا"},
 
@@ -21,7 +21,7 @@ const DEFAULT_PRODUCTS = [
 {id:19,name:"سوار معدني رقيق",desc:"قطعة بسيطة تضيف لمسة لامعة",price:350,stock:15,category:"accessories",icon:"✨",image:"https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=900&q=90"},
 {id:20,name:"وشاح ساتان",desc:"ألوان ناعمة ولمسة أنيقة لإطلالتك",price:380,stock:10,category:"accessories",icon:"🧣",image:"https://images.unsplash.com/photo-1601924994987-69e26d50dc26?auto=format&fit=crop&w=900&q=90"},
 {id:21,name:"مصباح طاولة دافئ",desc:"إضاءة هادئة لركن القراءة أو المكتب",price:720,stock:7,category:"home",icon:"💡",image:"https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=900&q=90"},
-{id:22,name:"وسادة ديكور",desc:"ملمس ناعم ولون يكمّل ديكور المكان",price:420,stock:9,category:"home",icon:"🛋️",image:"https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=900&q=90"},
+{id:22,name:"وسادة ديكور",desc:"ملمس ناعم ولون يكمّل ديكور المكان",price:420,stock:9,category:"home",icon:"🛋️",image:"https://images.unsplash.com/photo-1776186243368-50a3ed7cd200?auto=format&fit=crop&w=900&q=90"},
 {id:23,name:"مجموعة عناية بالبشرة",desc:"روتين يومي بتركيبات لطيفة",price:640,stock:12,category:"beauty",icon:"🧴",image:"https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=90"},
 {id:24,name:"مجموعة فرش مكياج",desc:"فرش ناعمة لتوزيع متناسق وسهل",price:460,stock:14,category:"beauty",icon:"💄",image:"https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=90"},
 {id:25,name:"مرطب يومي",desc:"ترطيب خفيف مناسب للاستخدام اليومي",price:290,stock:18,category:"beauty",icon:"🧴",image:"https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?auto=format&fit=crop&w=900&q=90"},
@@ -32,7 +32,7 @@ const DEFAULT_PRODUCTS = [
 {id:30,name:"فستان صيفي",desc:"قماش خفيف وقصة سهلة الحركة",price:980,stock:6,category:"fashion",icon:"👗",image:"https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=90"},
 {id:31,name:"جاكيت خفيف",desc:"طبقة عملية لأيام الجو المتقلب",price:1190,stock:5,category:"fashion",icon:"🧥",image:"https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=90"},
 {id:32,name:"تيشيرت أساسي",desc:"قطعة مريحة وسهلة التنسيق",price:420,stock:16,category:"fashion",icon:"👕",image:"https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=900&q=90"},
-{id:33,name:"حزام كلاسيك",desc:"تفصيلة عملية تكمل إطلالتك",price:390,stock:12,category:"fashion",icon:"〰️",image:"https://images.unsplash.com/photo-1624222247344-550fb8f6b9f7?auto=format&fit=crop&w=900&q=90"},
+{id:33,name:"حزام كلاسيك",desc:"تفصيلة عملية تكمل إطلالتك",price:390,stock:12,category:"fashion",icon:"〰️",image:"https://images.unsplash.com/photo-1624222247344-550fb60583dc?auto=format&fit=crop&w=900&q=90"},
 {id:34,name:"قبعة قماش",desc:"ستايل يومي خفيف للشمس والخروج",price:310,stock:9,category:"fashion",icon:"🧢",image:"https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=900&q=90"},
 {id:35,name:"سماعة لاسلكية",desc:"صوت واضح وتصميم مريح للاستخدام اليومي",price:890,stock:8,category:"tech",icon:"🎧",image:"https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=90"},
 {id:36,name:"سماعات أذن صغيرة",desc:"حجم عملي للمكالمات والموسيقى",price:760,stock:10,category:"tech",icon:"🎧",image:"https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=900&q=90"},
@@ -61,6 +61,11 @@ if(!localStorage.getItem("fa_store_catalog_v4")){
   const knownIds=new Set(products.map(p=>p.id));
   products=products.concat(DEFAULT_PRODUCTS.filter(p=>p.id>=17&&!knownIds.has(p.id)));
   save("fa_store_products",products);localStorage.setItem("fa_store_catalog_v4","1");
+}
+if(!localStorage.getItem("fa_store_catalog_v5")){
+  const refreshedImages=new Map(DEFAULT_PRODUCTS.filter(p=>[14,22,33].includes(p.id)).map(p=>[p.id,p.image]));
+  products=products.map(p=>refreshedImages.has(p.id)?{...p,image:refreshedImages.get(p.id)}:p);
+  save("fa_store_products",products);localStorage.setItem("fa_store_catalog_v5","1");
 }
 let cart=read("fa_store_cart",[]);if(!Array.isArray(cart))cart=[];
 let activeCategory="all",searchTerm="",sortMode="featured";
