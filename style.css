@@ -29,3 +29,6 @@ body{font-family:'Cormorant Garamond','Amiri',Georgia,serif}
 .about-icon{overflow:hidden;border-radius:50%;background:#f2eee8}
 .about-icon img{display:block;width:68%;height:68%;margin:auto;object-fit:contain}
 @media(max-width:650px){.promo-logo-frame{width:150px;height:150px;box-shadow:14px 14px 0 #314638}.about-icon{flex-basis:95px;height:95px}}
+.footer-logo-frame{width:130px;height:130px;flex:none;display:grid;place-items:center;border-radius:50%;background:#f2eee8;box-shadow:14px 14px 0 #1c2922}
+.footer-logo{display:block;width:68%;height:68%;object-fit:contain}
+@media(max-width:650px){.footer-logo-frame{width:100px;height:100px;box-shadow:10px 10px 0 #1c2922}}
