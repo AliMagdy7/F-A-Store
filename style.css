@@ -24,11 +24,8 @@ body{font-family:'Cormorant Garamond','Amiri',Georgia,serif}
 .about-icon,.hero-sticker{font-family:'Cormorant Garamond','Amiri',Georgia,serif!important}
 .hero-photo.hero-logo{position:relative;width:min(370px,100%);height:auto;max-height:350px;object-fit:contain;border:0;border-radius:0;box-shadow:none;transform:none}
 @media(max-width:650px){.brand-logo{width:94px;max-height:66px}.footer-brand .brand-logo{width:115px;max-height:90px}.hero-photo.hero-logo{width:min(285px,100%);height:auto;max-height:255px}}
-.promo-logo{z-index:1;width:190px;height:190px;object-fit:cover;border-radius:50%;box-shadow:20px 20px 0 #314638}
-.about-icon{overflow:hidden}
-.about-icon img{display:block;width:100%;height:100%;object-fit:cover;border-radius:50%}
-@media(max-width:650px){.promo-logo{width:150px;height:150px;box-shadow:14px 14px 0 #314638}}
-/* Keep the complete wordmark visible without circular cropping. */
-.promo-logo{border-radius:0}
-.about-icon{overflow:visible;border-radius:0;background:transparent}
-.about-icon img{object-fit:contain;border-radius:0}
+.promo-logo-frame{position:relative;z-index:2;width:190px;height:190px;display:grid;place-items:center;border-radius:50%;background:#f2eee8;box-shadow:20px 20px 0 #314638}
+.promo-logo{width:68%;height:68%;display:block;object-fit:contain}
+.about-icon{overflow:hidden;border-radius:50%;background:#f2eee8}
+.about-icon img{display:block;width:68%;height:68%;margin:auto;object-fit:contain}
+@media(max-width:650px){.promo-logo-frame{width:150px;height:150px;box-shadow:14px 14px 0 #314638}.about-icon{flex-basis:95px;height:95px}}
